@@ -13,8 +13,9 @@ const bodyFont = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Interview Question Studio",
-  description: "Generate thoughtful, role-specific interview questions.",
+  title: "AI Interview Question Generator",
+  description:
+    "Generate three role-specific interview questions from a job title using Gemini.",
 };
 
 export default function RootLayout({
